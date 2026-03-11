@@ -1,8 +1,50 @@
+# macOS
 .DS_Store
+
+# 环境变量（敏感信息）
 .env
 .env.local
+.env.*.local
+
+# Python 缓存
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# Claude / 编辑器配置
 .claude/
+
+# 日志
 *.log
+logs/
+
+# 测试
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 数据输出（按需）
+data/chroma_db/
+data/output/
+
+# 大型文件（按需，如不想上传内部资料）
+# *.pptx
+# *.docx
+# *.7z
