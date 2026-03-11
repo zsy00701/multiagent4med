@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.local
+__pycache__/
+*.py[cod]
+.vscode/
+.claude/
+*.log
