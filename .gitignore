@@ -40,11 +40,28 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-# 数据输出（按需）
+# =============================
+# 试卷 / 文档 / 数据文件（不上传）
+# =============================
+
+# 文档和演示文件
+*.pptx
+*.docx
+*.doc
+*.ppt
+
+# 压缩包
+*.7z
+*.zip
+*.rar
+
+# 泌尿外科护理出卷整个目录（全是试卷数据）
+泌尿外科护理出卷/
+
+# 向量数据库和模型输出
 data/chroma_db/
 data/output/
-
-# 大型文件（按需，如不想上传内部资料）
-# *.pptx
-# *.docx
-# *.7z
+data/knowledge_base/
+data/temp_uploads/
+data/*.zip
+data/*.docx
